@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with **React + Vite**, featuring a sleek dark theme with glassmorphism effects and smooth scroll animations.
 
-🔗 **Live:** _Coming soon_
+🔗 **Live:** https://nikhil-sharma-devx.vercel.app/
 
 ---
 
