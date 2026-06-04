@@ -17,17 +17,20 @@ A modern, responsive portfolio website built with **React + Vite**, featuring a 
 
 ## 📂 Sections
 
-| Section          | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| **Hero**         | Intro with stats and call-to-action buttons      |
-| **About**        | Bio and quick-info cards                         |
-| **Experience**   | Timeline of work history                         |
-| **Projects**     | Featured project cards with tech tags            |
-| **Publications** | IEEE research paper highlight                    |
-| **Skills**       | Categorized skill grid                           |
-| **Education**    | Academic background with scholarship badge       |
-| **Certifications** | Professional credentials                       |
-| **Contact**      | Contact info + message form                      |
+| Section                  | Description                                        |
+| ------------------------ | -------------------------------------------------- |
+| **Hero**                 | Intro with stats and call-to-action buttons        |
+| **Projects**             | Featured project cards with tech tags              |
+| **Academic Projects**    | Highlight of academic and course-related projects  |
+| **About**                | Bio and quick-info cards                           |
+| **Experience**           | Timeline of work history                           |
+| **Skills**               | Categorized skill grid                             |
+| **Certifications**       | Professional credentials                           |
+| **Publications**         | IEEE research paper highlight                      |
+| **Achievements**         | Notable awards and achievements                    |
+| **Education**            | Academic background with scholarship badge         |
+| **Currently Exploring**  | Topics and technologies I am currently learning    |
+| **Contact**              | Contact info + message form                        |
 
 ## 🛠 Tech Stack
 
@@ -35,6 +38,7 @@ A modern, responsive portfolio website built with **React + Vite**, featuring a 
 - **Vite** — Build tool & dev server
 - **React Icons** — Icon library (Feather icons)
 - **Vanilla CSS** — Custom design system with CSS variables
+- **Formspree** — Contact form integration
 
 ## 🚀 Getting Started
 
@@ -67,33 +71,26 @@ npm run build
 
 Output will be in the `dist/` folder, ready to deploy.
 
-## 🌐 Deployment
-
-This site can be hosted for free on any of these platforms:
-
-| Platform             | Command / Steps                                       |
-| -------------------- | ----------------------------------------------------- |
-| **Vercel**           | `npx vercel` or connect GitHub repo                   |
-| **Netlify**          | Drag & drop `dist/` folder, or connect GitHub         |
-| **GitHub Pages**     | Use `vite-plugin-gh-pages` or deploy `dist/` manually |
-| **Cloudflare Pages** | Connect GitHub repo, build command: `npm run build`   |
 
 ## 📁 Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
 │   ├── About.jsx
-│   ├── Experience.jsx
-│   ├── Projects.jsx
-│   ├── Publications.jsx
-│   ├── Skills.jsx
-│   ├── Education.jsx
+│   ├── AcademicProjects.jsx
+│   ├── Achievements.jsx
 │   ├── Certifications.jsx
 │   ├── Contact.jsx
-│   └── Footer.jsx
+│   ├── CurrentlyExploring.jsx
+│   ├── Education.jsx
+│   ├── Experience.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── Projects.jsx
+│   ├── Publications.jsx
+│   └── Skills.jsx
 ├── App.jsx
 ├── main.jsx
 └── index.css
@@ -107,4 +104,4 @@ src/
 
 ---
 
-Made with ❤️ by Nikhil Sharma
+Made by Nikhil Sharma
